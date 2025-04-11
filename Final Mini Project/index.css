@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.img1{
+    width:100%;
+    height:120vh;
+    background-image: url('img/three.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+    
+    
+   
+    /* background-position: center; */
+}
+
+
+
+
+
+
+
+
+
+.box1 {
+    
+    width: 20%;
+    background-color: #ee59ab6c;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    position:relative;
+    top: 20px;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box2{
+    width: 20%;
+    background-color: #ee59ab6c;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box3{
+    width: 20%;
+    background-color: #ee59ab6c;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1 h3 {
+    color: #db3d52e8;
+    margin: 0;
+    text-align: center;
+}
+.box1 h2 {
+    color: #db3d52e8;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box2 h3 {
+    color: #db3d52e8;
+    margin: 0;
+    text-align: center;
+}
+.box2 h2 {
+    color: #db3d52e8;
+    position: relative;
+    right: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
+.box3 h3 {
+    color: #db3d52e8;
+    margin: 0;
+    text-align: center;
+}
+.box3 h2 {
+    color: #db3d52e8;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+    
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* If you want rounded corners on the image */
+}
+.back{
+    text-decoration: none;
+    color:white;    
+    
+}
+@media screen and (max-width: 768px) {
+    .box1 {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+    
+    .box1 h2 {
+        font-size: 1.5rem;
+    }
+    
+    .box1 h3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+.foot-panel1{
+  
+    background-color:rgba(0, 0, 0, 0.61);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.foot-panel2{
+ background-color: #222f3dce;
+ color: white;
+ height: 400px;
+ display: flex;
+ justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel2 ul{
+    margin-top: 50px;
+}
+.foot-panel2 a:hover, a.active{
+    color: rgba(0, 0, 0, 0.76);
+}
+.foot-panel2 .ul a.active::after,
+.foot-panel2 a.hover::after{
+    content: "";
+    width: 30%;
+    height : 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left : 20px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.1px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url('logo2.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+
+}
+.foot-panel4{
+    background-color: #131a22;
+    color: white;
+    height: 80px;
+     font-size: 0.8rem;
+text-align: center;
+
+}
+.pages{
+padding-top: 25px;
+}
+.copy-right{
+margin-top: 5px;
+}
+
+
+
+.section1{
+    height: 500px;
+    width: 100%;
+    background-color:#dfdedc;
+    border-top: 2px solid rgba(128, 128, 128, 0.274);
+    
+}
+.box12{
+    height: 415px;
+    width: 23%;
+    position: absolute;
+    left: 20px;
+    margin-top: 22px;
+    margin-left: 38px;
+    align-items: center;
+}
+
+.box-img{
+    height: 260px;
+    width: 260px;
+    background-image: url('img/muskan.jpg');
+    background-size: cover;
+    margin-left: 22px;
+}
+.box-content h3{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+.box-content p{
+    margin-left: 13px;
+
+}
+.box13{
+    height: 415px;
+    width: 23%;
+    position: relative;
+    top: 22px;
+    margin-left: 525px;
+    color: rgba(0, 0, 0, 0.979);
+    align-items: center;
+    justify-content: center;
+}
+.box-img2{
+    position: relative;
+    top: 2px;
+    height: 260px;
+    width: 260px;
+    background-image:url('img/grading.jpg');
+    background-size: cover;
+    margin-left: 22px;
+
+    
+}
+.box-content2 p{
+    margin-top: 22px;
+    margin-left: 13px;
+  color: rgba(0, 0, 0, 0.644);
+}
+.box-content2 h3{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+
+.box15{
+    height: 415px;
+    width: 23%;
+    margin-left: 980px;
+    position: relative;
+    bottom: 393px;
+}
+.box-img3{
+    position: relative;
+    top: 2px;
+    /* bottom: 6px; */
+    height: 230px;
+    width: 260px;
+    background-image:url('img/new.jpg');
+    background-size: cover;
+    margin-left: 22px;
+
+}
+.box-content3 h3{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    margin-left: 45px;
+
+}
+.box-content3 p{
+    margin-top: 22px;
+    margin-left: 13px;
+  /* color: rgba(0, 0, 0, 0.644); */
+
+}
+.bg-color{
+    background-color: #d4d2d5;
+    border: 2px solid rgba(0, 0, 0, 0.075);
+    /* border: 2px solid #ccc; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) */
+    border-radius: 5px;
+}
+.font-size{
+    color: white;
+    font-size: 20px;
+}

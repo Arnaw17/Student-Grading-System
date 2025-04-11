@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    width:100%
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 px 0px;
+    background:  rgb(8, 83, 125);
+    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+@media only screen and (max-width: 600px) { body { margin: 20px; } }
+div.login-form{
+    width: 450px;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(155, 150, 150) ;
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto; 
+   
+}
+
+div.login-form h2{
+    text-align: center;
+    background-color: #db3d52e8;
+    padding: 12px 0px;
+    color: #ffffff;
+}
+div.login-form form{
+    padding: 30px 60px;
+}
+div.login-form form div.input-field{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+div.login-form form div.input-field i{
+        color: darkslategray;
+        padding: 10px 14px;
+        background-color: #f2f4f6;
+        margin-right: 4px;
+}
+div.login-form form div.input-field input{
+    background-color: #f2f4f6;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+}
+div.login-form form button{
+    width: 100%;
+    background-color: #03962f;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 15px 0px;
+    transition: background-color 0.4s;
+}
+div.login-form form button:hover{
+    background-color: #ceae22;
+}
+div.login-form form div.extra{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.login-form form div.extra a:first-child{
+    color:darkcyan;
+}
+div.login-form form div.extra a:last-child{
+    color:rgb(73, 63, 207);
+}

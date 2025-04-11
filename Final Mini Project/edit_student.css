@@ -1,0 +1,38 @@
+.container{
+  
+    background-color: #db3d52e8;
+    
+}
+#edit img{
+    margin-top: 15px;
+    margin-left:20px;
+   
+}
+body{
+    background-color: rgba(164, 207, 228, 0.315);
+    width: 100%;
+}
+#edit h2{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.form-group{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size:20px;
+}
+
+button.btn.btn-primary{
+    margin-top:10px;
+    margin-left: 50% ;
+}
+.form-control{
+    font-size:20px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+}
